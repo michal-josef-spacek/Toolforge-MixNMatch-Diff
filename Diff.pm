@@ -8,7 +8,7 @@ use Toolforge::MixNMatch::Object::Catalog;
 use Toolforge::MixNMatch::Object::User;
 use Toolforge::MixNMatch::Object::YearMonth;
 
-our $VERSION = 0.01;
+our $VERSION = 0.02;
 
 sub diff {
 	my ($catalog1, $catalog2, $warn) = @_;
