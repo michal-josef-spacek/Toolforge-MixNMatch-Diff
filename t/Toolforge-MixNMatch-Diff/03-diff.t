@@ -3,9 +3,9 @@ use warnings;
 
 use Test::More 'tests' => 8;
 use Test::NoWarnings;
+use Toolforge::MixNMatch::Diff;
 use Toolforge::MixNMatch::Object::Catalog;
 use Toolforge::MixNMatch::Object::User;
-use Toolforge::MixNMatch::Diff;
 
 # Test.
 my $t1 = Toolforge::MixNMatch::Object::Catalog->new(
