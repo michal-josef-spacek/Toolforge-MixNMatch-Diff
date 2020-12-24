@@ -15,7 +15,7 @@ author_requires 'Test::Pod' => 0;
 author_requires 'Test::Pod::Coverage' => 0;
 license 'bsd';
 name 'Toolforge-MixNMatch-Diff';
-perl_version 5.006002;
+perl_version 5.010;
 readme_from 'Diff.pm';
 recursive_author_tests('xt');
 requires 'Error::Pure' => 0;
