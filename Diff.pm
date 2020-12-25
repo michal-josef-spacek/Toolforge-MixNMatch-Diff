@@ -8,7 +8,7 @@ use Toolforge::MixNMatch::Object::Catalog;
 use Toolforge::MixNMatch::Object::User;
 use Toolforge::MixNMatch::Object::YearMonth;
 
-our $VERSION = 0.02;
+our $VERSION = 0.03;
 
 sub diff {
 	my ($catalog1, $catalog2, $warn) = @_;
@@ -305,6 +305,6 @@ BSD 2-Clause License
 
 =head1 VERSION
 
-0.04
+0.03
 
 =cut
